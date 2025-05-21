@@ -1,23 +1,36 @@
 /* Base layout */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
   color: #333;
-  background-color: #f9f9f9;
+  background-color: #ffffff; /* White background for main content */
   max-width: 900px;
   margin: auto;
 }
 
 /* Header section */
 header {
-  background-color: #cc7a8b;
-  color: white;
+  background-color: #e6e6fa; /* Lavender */
+  color: #333;
   padding: 40px 20px;
   text-align: center;
 }
 
+header h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 2.8em;
+  margin: 10px 0 5px;
+  color: #4b0082; /* Deep lavender text */
+}
+
+header p {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/* Profile picture styling (optional) */
 .profile-pic {
   width: 120px;
   height: 120px;
@@ -27,18 +40,9 @@ header {
   margin-bottom: 10px;
 }
 
-.hero-content h1 {
-  margin: 10px 0 5px;
-}
-
-.hero-content p {
-  margin: 0;
-  font-size: 1.1em;
-}
-
 /* Navigation */
 nav {
-  background-color: #e0e0e0;
+  background-color: #f5f5f5;
   text-align: center;
   padding: 10px;
 }
@@ -46,7 +50,7 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #5d1451;
+  color: #5d1451; /* Deep plum */
   font-weight: bold;
 }
 
@@ -54,13 +58,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Sections */
+/* Content sections */
 section {
   padding: 20px;
   margin: 20px 0;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.08);
 }
 
 /* Project list */
@@ -73,10 +77,10 @@ section {
   margin-bottom: 15px;
 }
 
+/* Footer */
 footer {
   background-color: #f1f1f1;
   text-align: center;
   padding: 20px;
   font-size: 0.9em;
 }
-
