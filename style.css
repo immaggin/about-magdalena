@@ -5,15 +5,15 @@ body {
   padding: 0;
   line-height: 1.6;
   color: #333;
-  background-color: #ffffff; /* White background for main content */
+  background-color: #f5f0e1; /* Soft beige */
   max-width: 900px;
   margin: auto;
 }
 
 /* Header section */
 header {
-  background-color: #e6e6fa; /* Lavender */
-  color: #333;
+  background-color: #247BA0; /* Teal Blue */
+  color: white;
   padding: 40px 20px;
   text-align: center;
 }
@@ -22,12 +22,13 @@ header h1 {
   font-family: 'Times New Roman', serif;
   font-size: 2.8em;
   margin: 10px 0 5px;
-  color: #4b0082; /* Deep lavender text */
+  color: white;
 }
 
 header p {
   font-size: 1.1em;
   margin: 0;
+  color: #d8f0f6;
 }
 
 /* Profile picture styling (optional) */
@@ -50,7 +51,7 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #5d1451; /* Deep plum */
+  color: #247BA0; /* Teal for nav links */
   font-weight: bold;
 }
 
@@ -62,7 +63,7 @@ nav a:hover {
 section {
   padding: 20px;
   margin: 20px 0;
-  background-color: white;
+  background-color: white; /* White content blocks on beige */
   border-radius: 8px;
   box-shadow: 0px 1px 4px rgba(0,0,0,0.08);
 }
