@@ -5,14 +5,14 @@ body {
   padding: 0;
   line-height: 1.6;
   color: #333;
-  background-color: #f5f0e1; /* Soft beige */
+  background-color: #FFE4C4; /* Bisque background */
   max-width: 900px;
   margin: auto;
 }
 
 /* Header section */
 header {
-  background-color: #247BA0; /* Teal Blue */
+  background-color: #A67B5B; /* French Beige */
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -28,7 +28,7 @@ header h1 {
 header p {
   font-size: 1.1em;
   margin: 0;
-  color: #d8f0f6;
+  color: #fcefe8;
 }
 
 /* Profile picture styling (optional) */
@@ -43,7 +43,7 @@ header p {
 
 /* Navigation */
 nav {
-  background-color: #f5f5f5;
+  background-color: #f3e6da;
   text-align: center;
   padding: 10px;
 }
@@ -51,7 +51,7 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #247BA0; /* Teal for nav links */
+  color: #5D3A28; /* Earthy brown that complements beige */
   font-weight: bold;
 }
 
@@ -63,7 +63,7 @@ nav a:hover {
 section {
   padding: 20px;
   margin: 20px 0;
-  background-color: white; /* White content blocks on beige */
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0px 1px 4px rgba(0,0,0,0.08);
 }
@@ -80,7 +80,7 @@ section {
 
 /* Footer */
 footer {
-  background-color: #f1f1f1;
+  background-color: #f3e6da;
   text-align: center;
   padding: 20px;
   font-size: 0.9em;
