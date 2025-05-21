@@ -1,26 +1,13 @@
-/* Reset + Base Layout */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
-  background-color: #fdfaf5; /* Very light beige */
-  color: #333;
-}
-
-/* Container: centers all content */
-body > * {
-  max-width: 900px;
-  margin: auto;
-}
-
-/* Header */
+/* Header with background image */
 header {
-  background-color: #C38D9E; /* Rose-gold beige */
+  background-image: url("header-bg.png");
+  background-size: cover;
+  background-position: center;
   color: white;
-  padding: 60px 20px 40px;
+  padding: 100px 20px 60px;
   text-align: center;
   border-bottom: 4px solid #B07B8C;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3); /* soft overlay for readability */
 }
 
 header h1 {
@@ -32,77 +19,6 @@ header h1 {
 
 header p {
   font-size: 1.2em;
-  color: #f8e9ed;
   margin: 0;
-}
-
-/* Profile Image */
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid white;
-  margin-bottom: 15px;
-}
-
-/* Navigation */
-nav {
-  background-color: #f3d6c6;
-  padding: 12px;
-  text-align: center;
-  border-bottom: 2px solid #d3a9a1;
-}
-
-nav a {
-  color: #89323D;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 1.05em;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Section Styling (About Me, Projects, CV) */
-section {
-  background-color: #ffffff;
-  margin: 40px auto;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-  max-width: 700px;
-  text-align: center;
-}
-
-section h2 {
-  color: #89323D;
-  border-bottom: 1px solid #e4c5c5;
-  padding-bottom: 8px;
-  margin-top: 0;
-  font-family: 'Georgia', serif;
-}
-
-/* Project List */
-.project-list {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-  margin-top: 15px;
-}
-
-.project-list li {
-  margin-bottom: 18px;
-}
-
-/* Footer */
-footer {
-  background-color: #f8e6dd;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  color: #5c4b51;
-  border-top: 1px solid #dec2b3;
+  color: #f8e9ed;
 }
